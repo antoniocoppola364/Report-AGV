@@ -1,0 +1,116 @@
+% Use https://mathscinet.ams.org/mrlookup to find bibtex data for published articles
+% Other websites such as google scholar also provide bibtex data
+% Choose "BibTex" format on the website before you search
+% The first parameter in each BibTex entry
+% (for example Tverberg:1996tb) is the cite key for you article
+% for help on book, inbook, collection, incollection, chapter see the link below https://github.com/retorquere/zotero-better-bibtex/issues/877#issuecomment-357496522
+
+@article{qi2018evaluation,
+  title={On the evaluation of AGVS-based warehouse operation performance},
+  author={Qi, Mingyao and Li, Xiaowen and Yan, Xuejun and Zhang, Canrong},
+  journal={Simulation Modelling Practice and Theory},
+  volume={87},
+  pages={379--394},
+  year={2018},
+  publisher={Elsevier}
+}
+
+@inproceedings{lynch2018automated,
+  title={Automated ground vehicle (agv) and sensor technologies-a review},
+  author={Lynch, Liam and Newe, Thomas and Clifford, John and Coleman, Joseph and Walsh, Joseph and Toal, Daniel},
+  booktitle={2018 12th International Conference on Sensing Technology (ICST)},
+  pages={347--352},
+  year={2018},
+  organization={IEEE}
+}
+
+@incollection{bechtsis2017industry,
+  title={Industry 4.0: Sustainable material handling processes in industrial environments},
+  author={Bechtsis, Dimitrios and Tsolakis, Naoum and Vouzas, Menippos and Vlachos, Dimitrios},
+  booktitle={Computer Aided Chemical Engineering},
+  volume={40},
+  pages={2281--2286},
+  year={2017},
+  publisher={Elsevier}
+}
+
+@mastersthesis{jansen2019efficient,
+  title={Efficient Routing and Planning within the Complex Logistical Network: Based on the Integration of a New Warehouse, AGV Transports and Increased Transportation Rates},
+  author={Jansen, Wout},
+  year={2019},
+  school={University of Twente}
+}
+
+
+@Article{pr8121648,
+AUTHOR = {Foit, Krzysztof and Gołda, Grzegorz and Kampa, Adrian},
+TITLE = {Integration and Evaluation of Intra-Logistics Processes in Flexible Production Systems Based on OEE Metrics, with the Use of Computer Modelling and Simulation of AGVs},
+JOURNAL = {Processes},
+VOLUME = {8},
+YEAR = {2020},
+NUMBER = {12},
+ARTICLE-NUMBER = {1648},
+URL = {https://www.mdpi.com/2227-9717/8/12/1648},
+ISSN = {2227-9717},
+ABSTRACT = {},
+DOI = {10.3390/pr8121648}
+}
+
+@book{tzafestas2013introduction,
+  title={Introduction to mobile robot control},
+  author={Tzafestas, Spyros G},
+  year={2013},
+  publisher={Elsevier}
+}
+
+@article{fagiolini2011,
+   author = {Adriano Fagiolini and Lucia Pallottino},
+   journal = {Computing Research Repository - CORR},
+   month = {10},
+   title = {Distributed Collision-free Protocol for AGVs in Industrial Environments},
+   year = {2011},
+}
+
+@article{fanti2002,
+   author = {Maria Pia Fanti},
+   doi = {10.1080/00207540110118073},
+   issue = {6},
+   journal = {International Journal of Production Research},
+   pages = {1453-1478},
+   publisher = {Taylor & Francis},
+   title = {Event-based controller to avoid deadlock and collisions in zone-control AGVS},
+   volume = {40},
+   year = {2002},
+}
+
+@inproceedings{fanti2002petri,
+   author = {Maria Pia Fanti},
+   doi = {10.1109/WODES.2002.1167670},
+   journal = {Sixth International Workshop on Discrete Event Systems, 2002. Proceedings.},
+   pages = {61-66},
+   title = {A deadlock avoidance strategy for AGV systems modelled by coloured Petri nets},
+   year = {2002},
+}
+
+
+@article{park2002,
+   author = {J Park and S A Reveliotis},
+   doi = {10.1109/TRA.2002.999651},
+   issue = {2},
+   journal = {IEEE Transactions on Robotics and Automation},
+   pages = {234-240},
+   title = {Liveness-enforcing supervision for resource allocation systems with uncontrollable behavior and forbidden states},
+   volume = {18},
+   year = {2002},
+}
+
+@article{de2007design,
+  title={Design and control of warehouse order picking: A literature review},
+  author={De Koster, Ren{\'e} and Le-Duc, Tho and Roodbergen, Kees Jan},
+  journal={European journal of operational research},
+  volume={182},
+  number={2},
+  pages={481--501},
+  year={2007},
+  publisher={Elsevier}
+}
