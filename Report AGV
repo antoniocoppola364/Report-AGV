@@ -1,0 +1,53 @@
+\documentclass[11pt]{article}
+\usepackage{amsmath, amssymb, amscd, amsthm, amsfonts}
+\usepackage{comment}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage[T1]{fontenc}
+\usepackage{imakeidx}
+\usepackage[normalem]{ulem}
+\usepackage[final]{pdfpages}
+\usepackage{graphicx}
+\graphicspath{ {./Unilateral controllability/images/} }
+
+
+\oddsidemargin 0pt
+\evensidemargin 0pt
+\marginparwidth 40pt
+\marginparsep 10pt
+\topmargin -20pt
+\headsep 10pt
+\textheight 8.7in
+\textwidth 6.65in
+\linespread{1.2}
+
+\title{Evaluation of the performance of decentralized AGVs control algorithms in the logistics sector}
+\author{Antonio Coppola}
+\date{05.11.2021}
+\makeindex
+
+
+\begin{document}
+\maketitle
+
+
+L'implementazione di Veicoli a Guida Automatica (AGV) nel contesto delle aziende manifatturiere intelligenti è una tecnologia abilitante per l'ottenimento di una produzione flessibile, scalabile e robusta. Un sistema AGV è una flotta di robot mobili che si muove seguendo marcatori o fili sul pavimento, o impiegando sistemi sensoriali, come laser o sistemi di visione \cite{tzafestas2013introduction}. 
+
+Il controllo delle flotte multiveicolo è stato trattato in letteratura seguendo due diversi approcci, ovvero in modo centralizzato e in modo decentralizzato. Nel controllo centralizzato un'unità di controllo assegna agli agenti operazioni preventivamente individuate \cite{fanti2002} \cite{fanti2002petri} \cite{park2002} . Il principale svantaggio di tali metodi è la loro complessità computazionale, che aumenta rapidamente all'aumentare del numero degli agenti coinvolti. Le politiche di controllo decentralizzate superano questo costo computazionale dividendo il problema in due fasi: prima, ogni agente esegue un'azione identificata minimizzando una funzione di costo, quindi ogni agente e i suoi vicini superano da soli eventuali conflitti secondo una politica di coordinamento condivisa. \cite{fagiolini2011}.
+
+Nella fase di implementazione dell'algoritmo decentralizzato per il controllo della flotta di AGV, sono stati adottati i seguenti Key Performance Indicators per valutare le prestazioni del sistema nello svolgimento delle operazioni all'interno del magazzino \cite{de2007design}:
+
+\begin{itemize}
+    \item Produttività: rapporto tra il numero di articoli prelevati dalla flotta e la somma del tempo totale per effettuare le operazioni di smistamento e prelievo più i tempi morti;
+    \item Tempo del ciclo dell'ordine: il tempo medio tra due ordini spediti;
+    \item Utilizzazione media degli AGV: valore medio del rapporto tra il tempo di funzionamento giornaliero degli AGV e le ore in una giornata lavorativa.
+
+
+Infine, l'applicazione considerata ha incentivato lo studio del problema astratto della controllabilità di un sistema multi-agente in presenza di un numero vincolato di controlli unilaterali, giustificato dal problema del controllo in velocità di AGV senza retromarcia,
+
+\end{itemize}
+
+\bibliographystyle{IEEEtran}
+\bibliography{refer_unilat} % see references.bib for bibliography management
+
+\end{document}
