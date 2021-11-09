@@ -21,11 +21,52 @@
 \textwidth 6.65in
 \linespread{1.2}
 
-\title{Evaluation of the performance of decentralized AGVs control algorithms in the logistics sector}
+\title{Valutazione delle prestazioni degli algoritmi di controllo degli AGV decentralizzati nel settore della logistica}
 \author{Antonio Coppola}
 \date{05.11.2021}
 \makeindex
 
+\newtheorem{mydef}{Definition}
+\newtheorem{mylem}{Lemma}
+\newtheorem{myrem}{Remark}
+\newtheorem{mythm}{Theorem}
+\newtheorem{mycor}{Corollary}
+\newtheorem{myprop}{Proposition}
+\newtheorem{assumption}{Assumption}
+\newcommand{\hyperedgessubset}{\mathcal{E}}
+\newcommand{\hyperedge}{e}
+\newcommand{\diam}{\mathrm{diam}}
+\newcommand{\real}{\mathbb{R}}
+\definecolor{mygreen}{RGB}{23,198,38}
+\newcommand{\anto}{\textcolor{mygreen}}
+\newcommand{\nocapito}{\textcolor{red}}
+
+\newcommand{\delay}{\epsilon}
+\newcommand{\dummyvertices}{\mathcal{V}'}
+\newcommand{\requestvertices}{\mathcal{V}^r}
+\newcommand{\vehiclesvertices}{\mathcal{V}^v}
+\newcommand{\hyperedges}{E}
+\newcommand{\hypervertices}{V}
+\newcommand{\hyperweights}{w}
+\newcommand{\weights}{w} %ATTENZIONE: STESSA NOTAZIONE
+\newcommand{\waiting}{\delta}
+\newcommand{\solution}{\sigma}
+\newcommand{\route}{\vartheta}
+\newcommand{\departure}{\tau^o}
+\newcommand{\arrival}{\tau^d}
+\newcommand{\maxarrival}{\tau^{max}}
+\newcommand{\quintuple}{\theta}
+\newcommand{\numquintuple}{n}
+\newcommand{\vertices}{\mathcal{V}}
+\newcommand{\arcs}{\mathcal{A}}
+\newcommand{\vehicles}{\mathcal{K}}
+\newcommand{\vehicle}{k}
+\newcommand{\passengers}{\mathcal{C}}
+\newcommand{\goal}{\Omega}
+\newcommand{\maxridetime}{U}
+\DeclareMathOperator{\conv}{conv}
+\DeclareMathOperator{\aff}{aff}
+\makeindex
 
 \begin{document}
 \maketitle
@@ -41,11 +82,11 @@ Nella fase di implementazione dell'algoritmo decentralizzato per il controllo de
     \item Produttività: rapporto tra il numero di articoli prelevati dalla flotta e la somma del tempo totale per effettuare le operazioni di smistamento e prelievo più i tempi morti;
     \item Tempo del ciclo dell'ordine: il tempo medio tra due ordini spediti;
     \item Utilizzazione media degli AGV: valore medio del rapporto tra il tempo di funzionamento giornaliero degli AGV e le ore in una giornata lavorativa.
-
+\end{itemize}
 
 Infine, l'applicazione considerata ha incentivato lo studio del problema astratto della controllabilità di un sistema multi-agente in presenza di un numero vincolato di controlli unilaterali, giustificato dal problema del controllo in velocità di AGV senza retromarcia,
 
-\end{itemize}
+
 
 \bibliographystyle{IEEEtran}
 \bibliography{refer_unilat} % see references.bib for bibliography management
